@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie rekrutacyjne POP-UP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1a1b808c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="box">
+        <button class="on">Kup teraz!</button>
+    </div>
+    <div class="shadow"></div>
+    <div class="modal">
+        <div class="courierInfo">
+            <p>Kurier - 14zł - 1-2 dni robocze</p>
+            <p>Inpost - 10zł - 1-2 dni robocze</p>
+            <p>Poczta polska - 12zł - 2-3 dni robocze</p>
+        </div>
+        <span class="close">x</span>
+        <div class="img"><i class="fas fa-chevron-left"></i><img class="xbox" src="../ProjektXboxPopup/xbox1.png"
+                alt=""><i class="fas fa-chevron-right"></i></div>
+        <!-- info -->
+        <div class="product">
+            <p class="productName"></p>
+            <p class="productPrice"></p>
+            <div class="sizeContainer">
+                <p class="productSize">Rozmiar:</p>
+                <p class="size1"></p>
+                <p class="size2"></p>
+                <p class="size3"></p>
+            </div>
+            <div class="variants">
+                <p class="variant">Wariant:</p>
+                <div class="chooseVariant">
+                    <p class="pickedVariant"></p>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="informations">
+                <p class="available"></p>
+
+                <p class="sendInfo"><i class="fas fa-history"></i> Możemy wysłać już dzisiaj!
+                    <span class="blue">Sprawdź czasy i koszty wysyłki</span>
+                </p>
+            </div>
+            <div class="confirmation">
+                <div class="amount">
+                    <p class="userSelect" id="delete">-</p>
+                    <p id="volume">1</p>
+                    <p class="userSelect" id="add">+</p>
+                </div>
+                <div class="addToCart">Dodaj do koszyka</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="added">
+        <h1 class="thanks">Dziękujemy za zakupy!</h1>
+        <p class="continue">Kontynuuj zakupy</p>
+        <p class="cart">Przejdź do koszyka</p>
+        <p class="closeAdded">x</p>
+    </div>
+    <p class="validator">
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="//jigsaw.w3.org/css-validator/images/vcss"
+                alt="Poprawny CSS!" />
+        </a>
+    </p>
+    <input class="reload" type="button" value="Odśwież" onClick="location.reload();" />
+    <script src="script.js"></script>
+</body>
+
+</html>
