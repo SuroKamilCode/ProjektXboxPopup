@@ -99,7 +99,7 @@ const photoList = [{
         img: "../ProjektXboxPopup/xbox1.png",
     },
     {
-        img: "../ProjektXboxPopup/xbox1.png",
+        img: "../ProjektXboxPopup/xbox2.png",
     }
 ];
 
